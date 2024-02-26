@@ -1,10 +1,35 @@
-body { background-color: rgb(7, 5, 5); color: rgb(241, 234, 234);
+body{ 
+    background-color: aqua;
+} 
+h1{
+    text-align: center;
+    color:chocolate
+    
 }
-h1 { text-align: center;
-}
-footer { text-align: center;margin-right: 200px
+footer{ 
+    text-align: center;
+    margin-right: 200px
 }
 .img-princessbride {margin-right: 200px; 
 }
-nav { height: 6000px; width: 200px; float: left; padding: 5px; line-height: 30px;
+#sample{
+    text-align: center;
+    color:brown
+}
+nav a{
+    text-align: center;
+    color:azure;
+    height: 6000px; 
+    width: 200px; 
+    float: center; 
+    padding: 5px; 
+    line-height: 30px;
 } 
+nav img{
+    width: 50px;
+    height: 50px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}

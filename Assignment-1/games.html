@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html> 
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Play Game</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    
+    <!-- Heading for the page -->
+    <h1>Craps Game</h1>
+    <!-- Paragraph for displaying the result -->
+    <p id="lblResult">Press 'Roll Dice' to start the game</p>
+        <p img src="Dice6.png"
+    <!-- Container for the dice images-->
+    <div id="diceContainer">
+        <div id="pbDieImage1"></div>
+        <div id="pbDieImage2"></div>
+    </div>
+    <!--Button for rolling the dice -->
+    <button id="btnRollDice" onclick="rollDice()">Roll Dice</button>
+
+    <!-- Button for playing again, initially disabled -->
+    <button id="tnPlayAgain" onclick="playAgain()" disabled>Play again</button>
+</body>
+</html>
