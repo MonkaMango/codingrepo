@@ -1,10 +1,9 @@
 // Load dice images into an array
 for (let i = 0; i < 6; i++) {
-    allImages[i] = 'url('Dice/${i + 1}.png')';
 } 
 
 // Set initial background images for dice elements
-document.getElementById("pbDieImage1").style.backgroundImage = allImages[0];
+document.getElementById(" ").style.backgroundImage = allImages[0];
 document.getElementById("pbDieImage2").style.backgroundImage = allImages[0];
 
 //Disable the "Play Again" button initially
