@@ -69,5 +69,24 @@ function maxOfTwoNumbers(a,b){
  
 console.log(maxOfTwoNumbers(4,7));
 
+// find if a numbe is an odd number or and even number
 
+function checkOddorEven(number){
+    if(number%2 == 0){
+        console.log("Even number");
+    else{
+        console.log("Odd number");
+        }
+    }
+}
+console.log(checkOddorEven(4));
 
+//find it a character is a vowel or a consonant
+function chechVowelOrConsonant(character){
+    if(char == 'a' || char == 'e' || char 'i' || char == 'o' || char) == 'u'
+    console.log(Character is Vowel)
+}
+    else{
+        return "Consonant";
+    }
+console.log(chechVowelOrConsonant)('b');
