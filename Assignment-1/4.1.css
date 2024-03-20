@@ -7,15 +7,23 @@ body {
   .contact-banner {
     background-image: linear-gradient(
       to right,
-      rgb(0, 114, 66) 0%,
-      rgb(15, 4, 109) 100%
+      rgb(114, 0, 0) 0%,
+      rgb(206, 139, 15) 100%
     );
     color: white;
     padding: 40px;
   }
   
-  .invalid {
-    border: 1px solid red;
+  .memeImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .img-mymeme {
+    position: absolute;
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
   }
   
   .mb-2 {
@@ -29,36 +37,21 @@ body {
   p {
     font-size: 20px;
   }
-  
-  .contact-description {
-    margin-bottom: 40px;
-  }
-  
-  input {
-    padding: 10px;
-    border-radius: 5px;
-    width: 280px;
-    border: 1px solid rgb(0, 114, 66);
-    font-size: 18px;
-    outline: none;
-    color: #333;
-  }
+
   
   .form-control {
     font-size: 20px;
     margin-bottom: 10px;
   }
   
-  .error {
-    color: red;
-    font-size: 14px;
-    margin-top: 6px;
-  }
-  
   label {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
+  }
+
+  img {
+      width: 200px;
   }
   
   .hide {
@@ -77,27 +70,25 @@ body {
   button {
     color: black;
     padding: 20px;
-    border: 1px solid rgb(0, 114, 66);
+    border: 1px solid rgb(229, 123, 10);
     border-radius: 10px;
     background: none;
     cursor: pointer;
     transition: all 0.5s;
-    color: rgb(0, 114, 66);
+    color: rgb(229, 123, 10);
+    text-align: center;
   }
   
   button:hover {
     background-image: linear-gradient(
       to right,
-      rgb(0, 114, 66) 0%,
-      rgb(4, 109, 91) 100%
+     rgb(114, 0, 0) 0%,
+     rgb(114, 0, 0) 100%,
     );
-    color: white;
+    color: rgb(114, 0, 0);
   }
   
-  form {
-    padding: 40px;
-  }
-  
+ 
   hr {
     margin-bottom: 20px;
     margin-top: 20px;
@@ -105,3 +96,5 @@ body {
     border: none;
     background-color: rgb(0, 114, 66);
   }
+
+  

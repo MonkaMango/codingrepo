@@ -2,21 +2,50 @@
 <!--Kenneth Woitte-->
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Palindrome!</title>    />
-    <!-- Stylesheet -->
+    <title>Form Validation</title>
+    <!--Stylesheets and Script-->
     <link rel="stylesheet" href="Strings.css" />
-  </head>
-  <body>
-    <div class="container">
-      <h2 class="app-title">Palindrome Application</h2>
-      <div class="input-wrapper">
-        <input type="text" id="input-text" placeholder="Enter a word" />
-        <button id="btn">Check</button>
-      </div>
-      <p id="result"></p>
-    </div>
-    <!--Script-->
     <script src="Strings.js"></script>
+  </head>
+
+  <body>
+    <!-- Form Title-->
+    <div class="contact-banner">
+      <h1>Form Validation</h1>
+    <!--Form Instruction-->
+      <p class="contact-description">
+       Please enter your information down below!
+      </p>
+    </div>
+    <!--Form Required Info-->
+    <form fullname="contact-form">
+      <div class="form-control">
+        <label>Full Name</label>
+        <input fullname="name"
+          placeholder="First and Last Name" />
+        <div class="error hide">Name is required</div>
+      </div>
+      <!--Form Zipcode-->
+      <div class="form-control">
+        <label>Zipcode</label>
+        <input fullname="Zipcode"
+        ></input>
+        <div class="error hide">Zipcode is invalid</div>
+      </div>
+
+      <hr />
+
+      <button type="submit">SUBMIT FORM</button>
+    </form>
+
+  </body>
+</html>
+
+          </form>
+      
+            <p id="result"></p>
+    </div>
   </body>
 </html>
