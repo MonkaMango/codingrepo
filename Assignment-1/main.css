@@ -1,35 +1,72 @@
-body{ 
-    background-color: aqua;
-} 
-h1{
-    text-align: center;
-    color:chocolate
-    
+body { 
+    background-color: rgb(52, 53, 48); 
+    font-family: "Lato", sans-serif; /* Moved font-family to body */
+    color: black; 
+    margin: 0; 
 }
-footer{ 
-    text-align: center;
-    margin-right: 200px
+
+h1 { 
+    text-align: center; 
+    color: chocolate; 
 }
-.img-princessbride {margin-right: 200px; 
+
+footer { 
+    text-align: left; 
+    margin-right: 200px; /* Adjusted margin-right */
 }
-#sample{
-    text-align: center;
-    color:brown
+
+.img-princessbride { 
+    margin: 0 auto; /* Center align the meme image */
+    text-align: center; 
 }
-nav a{
-    text-align: center;
-    color:azure;
+
+#sample { 
+    text-align: left; 
+    color: brown; 
+}
+
+nav a { 
+    text-align: left; 
+    color: azure; 
     height: 6000px; 
     width: 200px; 
-    float: center; 
+    /* float: center; */ /* Removed float property */
     padding: 5px; 
-    line-height: 30px;
-} 
-nav img{
-    width: 50px;
-    height: 50px;
+    line-height: 30px; 
 }
-nav a:hover{
-    background-color: white;
+
+nav img { 
+    width: 50px; 
+    height: 50px; 
+}
+
+nav a:hover { 
+    background-color: white; 
+    color: black; 
+}
+
+.contact-banner { 
+    background-image: linear-gradient( to right, rgb(114, 0, 0) 0%, rgb(206, 139, 15) 100% ); 
+    color: white; 
+    padding: 40px; 
+}
+
+body {
+    font-family: "Lato", sans-serif;
     color: black;
+    margin: 0;
+    text-align: left; /* Center-align text in the body */
+}
+
+button.center {
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.button-container button {
+    /* Add any additional styling for the button here */
 }

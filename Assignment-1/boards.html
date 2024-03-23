@@ -5,18 +5,28 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>Beginning</title>
+        <title>Incorporated Audio</title>
         <link rel="stylesheet" href="main.css">
         <script src="main.js"></script>
-        <script>
-            function executeFunction(){
-                document.getElementById('sample').innerHTML = 'Hello Kenny'
-}
-
-        </script>
-
+    
+    <div class="contact-banner">
     </head>
     <body> 
+        <h1>Incorporated Audio</h1>
+        <!--Code to play the track: WON'T PLAY-->
+        <audio id="backgroundAudio" autoplay loop>
+            <source src="audiotrack.mp3" type="audio/mp3">
+            
+        </audio>
+    <!-- Button to play audio -->
+    <div><button onclick="playAudio()">Play Audio</button>
+    </div>
+
+    <!-- Audio element -->
+    <audio id="backgroundAudio" loop>
+        <source src="audiotrack.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
         <nav>
            
             </a>
@@ -25,7 +35,8 @@
             <a href="new_js.html">Signup</a>
             <a href="sample_js.html">About</a>
         </nav>
-        <h1>UAT Robotics</h1>
+
+        <h1></h1>
         <p><img class="img-princessbride" src="img/Princessbride.jpg" alt="meme"></p>
             <ul> <!-- These are the objectives for UAT's Robotics course -->
                 <li>Design and complete robotic and embedded systems solutions that address real-world situations and challenges.</li>
@@ -64,7 +75,7 @@
                     </ul>
                 </td>
                 <td>
-                    <ol>=
+                    <ol>
 
                     </ol> 
 
@@ -76,37 +87,9 @@
         <a href="https://www.uat.edu/">Website to go to UAT</a><br></br>
         <button>Submit</button><br><br>
 
-        <!--Nested Elements-->
+        <!-- Elements-->
         <p>Click the <a href="https://www.uat.edu/">Link</a> to go to UAT website</p><br><br>
              </p>
        
-             <!--Inline CSS-->
-        <h2 style="color:azure">This is another heading</h2>
-        <p style="font-style: italic;"><b>Paragraph</p>
-        <h2>
-            <center style="color: yellow;">
-                Content
-            </center>
-        </h2>
-        
-        <!--HTML and ex.CSS - ID's and classes-->
-        <h1 id="sample">Heading 1</h1>
-        <h6>Heading 6</h6>
-        <p class="introduction">Paragraph</p>
-        
-        <!--Javascript-->
-        <h3>Javascript Demo</h3>
-        <p id="sample">My name is Kenny</p>
-
-        <button onclick="executeFunction(document.getElementById.innerHTML= 'Hello Kenny')">Try me</button>
-        
-        <script>
-            window.alert("Hello")
-
-            console.log("Kenny")
-        </script>
-        
-
-
-</body>
+      </body>
 </html>
