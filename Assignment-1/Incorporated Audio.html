@@ -1,92 +1,108 @@
-<!-- Kenneth Woitte -->
+<!--Kenneth Woitte-->
 <!DOCTYPE html>
-<html>
-     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title>Incorporated Audio</title>
-        <link rel="stylesheet" href="main.css">
-        <script src="main.js"></script>
-    
-    <div class="contact-banner">
-    </head>
-    <body onload="playAudio()"> 
-        <h1>Incorporated Audio</h1>
-        <!--Code to play the track: WON'T PLAY-->
-        <audio id="backgroundAudio" autoplay loop>
-            <source src="audiotrack.mp3" type="audio/mp3">
-            
-        </audio>
+<html lang="en">
 
-    <!-- Audio element -->
-    <audio id="backgroundAudio" loop>
-        <source src="audiotrack.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
-        <nav>
-           <!--Nav buttons-->
-            </a>
-            <a href="learn_js.html">Home</a>
-            <a href="basic_js.html">Contact</a>
-            <a href="new_js.html">Signup</a>
-            <a href="sample_js.html">About</a>
-        </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Incorporated Audio</title>
+  <link rel="stylesheet" href="Incorporated Audio.css">
+  <script src="Incorporated Audio.js"></script>
+</head>
 
-        <h1></h1>
-        <p><img class="img-princessbride" src="img/Princessbride.jpg" alt="meme"></p>
-            <ul> <!-- These are the objectives for UAT's Robotics course -->
-                <li>Design and complete robotic and embedded systems solutions that address real-world situations and challenges.</li>
-                <li>Demonstrate embedded microprocessor system skills such as microcontroller selection, digital logic design, schematic 
-                    creation, printed circuit board layout and construction, electromagnetic compatibility design and manufacturing design. </li>
-                <li> Develop vision and sensing systems for use in robotic applications. </li>
-                <li> Integrate transducers, actuators, feedback and other mechanical systems into robotic platforms. </li>
-                <li> Apply examples of human and autonomous control systems into robotic platforms. </li>
-                <li> Implement artificial intelligence and data systems into robotic platforms. </li>
 
+  <!-- Home Link -->
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="Final.html" class="home-link">Home</a></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Contact Banner -->
+  <div class="contact-banner">
+    <h1>Incorporated Audio</h1>
+  </div>
+
+  <!-- Audio Element -->
+  <audio id="backgroundAudio" loop autoplay>
+    <source src="audiotrack.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+   <!-- Play Audio Button -->
+   <button onclick="playAudio()">Play Audio</button>
+
+  <!-- Main Content -->
+  <nav>
+    <!--Nav buttons-->
+    <a href="learn_js.html">Home</a>
+    <a href="basic_js.html">Contact</a>
+    <a href="new_js.html">Signup</a>
+    <a href="sample_js.html">About</a>
+  </nav>
+
+  <h1></h1>
+  <p><img class="img-princessbride" src="img/Princessbride.jpg" alt="meme"></p>
+  <ul>
+    <!-- These are the objectives for UAT's Robotics course -->
+    <li>Design and complete robotic and embedded systems solutions that address real-world situations and challenges.</li>
+    <li>Demonstrate embedded microprocessor system skills such as microcontroller selection, digital logic design, schematic
+      creation, printed circuit board layout and construction, electromagnetic compatibility design and manufacturing design.
+    </li>
+    <li>Develop vision and sensing systems for use in robotic applications.</li>
+    <li>Integrate transducers, actuators, feedback and other mechanical systems into robotic platforms.</li>
+    <li>Apply examples of human and autonomous control systems into robotic platforms.</li>
+    <li>Implement artificial intelligence and data systems into robotic platforms.</li>
+  </ul>
+
+  <!-- Tables -->
+  <table border="1">
+    <tr>
+      <th>Class</th>
+      <th>Books</th>
+    </tr>
+    <tr>
+      <td>Robotics</td>
+      <td>Robotics 101</td>
+    </tr>
+    <tr>
+      <td>Circuitry</td>
+      <td>Electrodes</td>
+    </tr>
+    <tr>
+      <th>Tools</th>
+      <th>Prices</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li>Wrench</li>
+          <li>Screwdriver</li>
+          <li>Impact Hammer</li>
         </ul>
-        <!--Tables de Mesas-->
-        <table border="1"> 
-            <tr>
-                <th>Class</th>
-                <th>Books</th>
-                 </tr>
-            <tr>
-                <td>Robotics</td>
-                <td>Robotics 101</td>    
-            </tr>
-            <tr>
-                <td>Circuitry</td>
-                <td>Electrodes</td>
-            </tr>
-            <tr> 
-                <th>Tools</th>
-                <th>Prices</th>
-            </tr>
-            <tr>
-                <td>
-                    <ul>
-                        <li>Wrench</li>
-                        <li>Screwdriver</li>
-                        <li>Impact Hammer</li>
-                    </ul>
-                </td>
-                <td>
-                    <ol>
+      </td>
+      <td>
+        <ol>
+          <!-- Add prices here -->
+        </ol>
+      </td>
+    </tr>
+  </table>
+  <br><br>
 
-                    </ol> 
+  <!-- Links and sources -->
+  <a href="https://www.uat.edu/">Website to go to UAT</a><br><br>
+  <button>Submit</button><br><br>
 
-                </td> 
-            </tr>
-        </table><br><br>
-
-        <!--Links and sources-->
-        <a href="https://www.uat.edu/">Website to go to UAT</a><br></br>
-        <button>Submit</button><br><br>
-
-        <!-- Elements-->
-        <p>Click the <a href="https://www.uat.edu/">Link</a> to go to UAT website</p><br><br>
-             </p>
-       
-      </body>
+  <!-- Elements -->
+  <p>Click the <a href="https://www.uat.edu/">Link</a> to go to UAT website</p><br><br>
+</body>
+<audio controls autoplay loop>
+    <source src="audiotrack.mp3">
+    <source src="audiotrack.wav">
+    This browser does not support HTML5 audio
+</audio>
 </html>

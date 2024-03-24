@@ -1,65 +1,71 @@
-body { 
-    background-color: rgb(52, 53, 48); 
-    font-family: "Lato", sans-serif; 
-    color: black; 
-    margin: 0; 
-}
-
-h1 { 
-    text-align: center; 
-    color: chocolate; 
-}
-
-footer { 
-    text-align: left; 
-    margin-right: 200px; 
-}
-
-.img-princessbride { 
-    margin: 0 auto; 
-    text-align: center; 
-}
-
-#sample { 
-    text-align: left; 
-    color: brown; 
-}
-
-nav a { 
-    text-align: left; 
-    color: azure; 
-    height: 6000px; 
-    width: 200px; 
-    padding: 5px; 
-    line-height: 30px; 
-}
-
-nav img { 
-    width: 50px; 
-    height: 50px; 
-}
-
-nav a:hover { 
-    background-color: white; 
-    color: black; 
-}
-
-.contact-banner { 
-    background-image: linear-gradient( to right, rgb(114, 0, 0) 0%, rgb(206, 139, 15) 100% ); 
-    color: white; 
-    padding: 40px; 
-}
-
 body {
+    background-color: rgb(52, 53, 48);
     font-family: "Lato", sans-serif;
-    color: black;
+    color: white;
     margin: 0;
-    text-align: left; 
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: chocolate;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-princessbride {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    max-width: 400px;
+}
+
+#sample {
+    text-align: left;
+    color: brown;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: azure;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact-banner {
+    background-image: linear-gradient(to right, rgb(114, 0, 0) 0%, rgb(206, 139, 15) 100%);
+    color: white;
+    padding: 40px;
+    text-align: center;
 }
 
 button.center {
     margin-top: 20px;
     display: block;
     margin: 0 auto;
-     
+}
+a.home-link {
+    color: #fff; 
+    background-color: #a61a1a; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+}
+
+a.home-link:hover {
+    background-color: #cd5f5f; 
 }
